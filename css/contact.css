@@ -1,0 +1,86 @@
+.contact-content{
+    padding: 50px 15px;
+    background: rgb(255, 255, 255);
+    display: flex;
+    font-family: 'Architects Daughter', cursive;
+   
+}
+.contactform{
+    margin: 0px;
+    padding: 10px 10px 60px;
+}
+.formbox input, textarea{
+    width: 20vw;
+    margin: 5px;
+    padding: 15px;
+    font-family: 'Architects Daughter';
+}
+body{
+    background-image: url(https://cutewallpaper.org/22/aesthetic-desktop-minimalist-wallpapers/lock-screen-desktop-plant-minimalist-wallpaper-hd-minimalist-desktop-wallpaper-computer-wallpaper-desktop-wallpapers-aesthetic-desktop-wallpaper.jpg);
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    background-size: cover;
+}
+
+@media only screen and (max-width: 1250px) {
+    .featured{
+        display: flex;
+        align-items: center;
+        text-align: center;
+        justify-content: center;
+        padding-bottom: 10px;
+        margin-top: none;
+    }
+    .contact-content{
+        max-width: 70%;
+        background: rgb(255, 255, 255);
+        display: flex;
+        flex-direction: column;
+
+    }
+    .contactform{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .formbox input, textarea{
+        width: 80%;
+    }
+
+}
+
+.social2 li a{
+    color: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+}
+.social2 li{
+    padding: 0 10px;
+}
+.social2{
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.s{
+    display: flex;
+    flex-direction: row;
+}
+.social2 span{
+    margin-right: 10px ;
+    font-size: 30px;
+}
+.footer{
+height: 15vh;
+background: black;
+display: flex;
+flex-direction: column;
+align-items: center;
+justify-content: center;
+color: white;
+overflow: hidden;}

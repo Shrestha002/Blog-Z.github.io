@@ -1,0 +1,142 @@
+/*font-family: 'Allura', cursive;
+font-family: 'Architects Daughter', cursive;
+font-family: 'Cookie', cursive;
+font-family: 'Dancing Script', cursive;
+font-family: 'Engagement', cursive;
+font-family: 'Mountains of Christmas', cursive;
+font-family: 'Shizuru', cursive; 
+font-family: 'Indie Flower', cursive; 
+font-family: 'Gloria Hallelujah', cursive;
+font-family: 'Sacramento', cursive;
+font-family: 'Akaya Telivigala', cursive;
+font-family: 'Handlee', cursive;*/
+*{
+    margin: 0;padding: 0;
+}
+/* .bg{background-image: url(https://cutewallpaper.org/22/aesthetic-desktop-minimalist-wallpapers/lock-screen-desktop-plant-minimalist-wallpaper-hd-minimalist-desktop-wallpaper-computer-wallpaper-desktop-wallpapers-aesthetic-desktop-wallpaper.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;} */
+.navigation{
+    height: 20vh;
+    /* background: blue; */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-image: url(https://t3.ftcdn.net/jpg/02/84/72/34/360_F_284723461_Wx1aV9dTmkN76EhhZQVj1JepLR0bdgjz.jpg);
+    background-position-y:center;
+    overflow: hidden;
+    
+}
+.content{
+    padding: 50px 15px;
+    /* height: 60vh; */
+    background: rgb(255, 255, 255);
+    display: flex;
+}
+.contentl{
+    font-family: var(--font1);
+    width: 70%;
+    text-align: justify;
+}
+.contentr{
+    width: 30%;
+    display: flex;
+    justify-content: end;
+}
+.contentr img{
+    padding-top: 0;
+    margin-top: 0;
+    height: 30vh;
+    border: 2px solid black;
+    border-radius:200px;
+}
+
+.logo{
+    font-family: 'Allura', cursive;
+    font-size: 10vh;
+    color: black;
+    margin: 0 80px 0 40px;
+}
+.left{
+    display: flex;
+}
+.left ul {
+    display: flex;
+    margin: 0 40px;
+    justify-content: center;
+    align-items: center;
+}
+.left ul li a:hover{ 
+    font-weight: bolder;
+    color: violet;
+    transition: all 0.1s ease-in-out;
+}
+.left ul li{
+    list-style: none;
+    margin: 10px;
+}
+.left ul li a{
+    text-decoration: none;
+    color: black;
+    font-family: var(--font1);
+    font-size: 18px;
+}
+.h{
+    color:rgb(202, 183, 201);
+}
+@media only screen and (max-width: 900px) {
+    .content{
+        padding: 15px;
+        /* height: 60vh; */
+        background: rgb(255, 255, 255);
+        display: flex;
+        flex-direction: column;
+    }
+    .contentl{
+        font-family: var(--font1);
+        width:100%;
+        text-align: justify;
+    }
+    .contentr{
+        width: 100%;
+        margin-top: 10px ;
+        display: flex;
+        justify-content: center;
+    }
+    .contentr img{
+        height: 30vh;
+        border: 2px solid black;
+        border-radius: 200px;
+    }
+}
+@media only screen and (max-width: 900px) {
+    .navigation{
+        display: flex;
+        flex-direction: column;
+    }
+    .left{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .logo{
+        font-size: 5vh;
+        margin-top:10px ;
+    }
+    .btn{
+        border: 1px solid black;
+        background-color: white;
+        padding: 10px;
+        border-radius: 50px;
+        margin: 0 25px 0 0;
+    
+    }
+    .forminput{
+        margin: 10px 10px;
+    }
+    .forminput:hover{
+        font-size: 15px;
+    }
+}

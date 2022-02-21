@@ -1,0 +1,73 @@
+.featured{
+    margin-top: 20px;
+    padding: 10px 20px 60px;
+    text-decoration: underline;
+    background-color: white;
+    font-size: 30px;
+}
+.homearticles{
+    margin-top: 10px;
+    /* height: 400px; */
+    background-color: rgb(255, 255, 255);
+    font-family: var(--font2);
+    font-size: larger;
+    background-image: url(https://cutewallpaper.org/22/aesthetic-desktop-minimalist-wallpapers/lock-screen-desktop-plant-minimalist-wallpaper-hd-minimalist-desktop-wallpaper-computer-wallpaper-desktop-wallpapers-aesthetic-desktop-wallpaper.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+.homearticle{
+    padding: 40px 0;
+    display: flex;
+}
+.homearticle2{
+    flex-direction: row-reverse;
+}
+.homearticleimage{
+    margin-left: 100px;
+}
+.homearticleimage img{
+    margin: 10px 70px 0 0;
+    width: 200px;
+    border: 1px solid black;
+    border-radius: 150px;
+}
+.homearticlecontent{
+    display: flex;
+    flex-direction: column;
+}
+.homearticlecontent a{
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+}
+.homearticlecontent span{
+    display: flex;
+    align-items: center;
+}
+.span{
+    display: flex;
+    flex-direction: column;
+    padding: 10vh 0;
+}
+@media only screen and (max-width: 900px) {
+    .homearticle{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .homearticleimage img{
+        margin: 0px 90px 0 0;
+        width: 200px;
+        border: 1px solid black;
+        border-radius: 150px;
+    }
+    .span{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        padding: 5px 0;
+        font-size: smaller;
+    }
+
+}

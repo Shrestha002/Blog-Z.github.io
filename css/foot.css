@@ -1,0 +1,47 @@
+.footer{
+    height: 15vh;
+    background: black;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    overflow: hidden;
+
+}
+.copy{
+    padding: 0 0 10px 0;
+}
+.copy a{
+    text-decoration: none;
+    color: white;
+}
+.social{
+    text-decoration: none;
+    display: flex;
+    flex-direction: row;
+}
+.social li{
+    list-style: none;
+    padding: 5px;
+    text-decoration: none;
+}
+.social li a{
+    color: white;
+}
+.social li a:hover{
+    cursor: pointer;
+    color: var(--violet);
+}
+@media only screen and (max-width: 900px) {
+    .footer{
+  
+        left: 0;
+        bottom: 0;
+        width: 100%;
+    }
+    .social li a:hover{
+        cursor: pointer;
+        color: var(--violet);
+    }
+}

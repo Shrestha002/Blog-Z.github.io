@@ -1,0 +1,33 @@
+.contact-content{
+    display: flex;
+    flex-direction: column ;
+    font-family: var(--font2);
+    text-align: justify;
+    background: rgb(255, 255, 255);
+}
+body{
+    background-image: url(https://cutewallpaper.org/22/aesthetic-desktop-minimalist-wallpapers/lock-screen-desktop-plant-minimalist-wallpaper-hd-minimalist-desktop-wallpaper-computer-wallpaper-desktop-wallpapers-aesthetic-desktop-wallpaper.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+.span2{
+    display: flex;
+    flex-direction: column;
+    align-items:flex-end;
+
+}
+.social li a{
+    color: black;
+}
+.also{
+    background-color: rgba(255, 255, 255, 0.699);
+}
+@media only screen and (max-width: 900px) {
+    .contact-content{
+        font-size: smaller;
+    }
+    .span2{
+        font-size: x-small;
+    }
+}
